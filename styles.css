@@ -127,6 +127,11 @@ a:visited:hover {
   font-family: "Roboto", sans-serif;
 }
 
+.crystal {
+  font-weight: 800;
+  color: #ffffff;
+}
+
 body {
   margin: 0px;
 }
