@@ -18,7 +18,7 @@
   row-gap: 70px;
 }
 
-.top-container, .footer {
+.top-container, .footer-container {
   background-color: #4a4e69;
 }
 
@@ -80,14 +80,13 @@
 }
 
 .info-container {
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .info-header {
   text-align: center;
   font-size: 36px;
   font-weight: 900;
-  color: #1f2937;
   padding-top: 50px;
 }
 
@@ -104,6 +103,34 @@
   font-size: 12px;
   color: slateblue;
   text-align: center;
+}
+
+.info-header, .quote, .author {
+  color: #1f2937;
+}
+
+.quote-container {
+  background-color: #9a8c98;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.author {
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.quote, .author {
+  margin: 0px 20%;
 }
 
 a {
