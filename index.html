@@ -3,41 +3,44 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
     <title>Odin Landing Page</title>
   </head>
 
   <body>
-    <div class="header container section">
-      <div class="header-top">
-        <img class="header-logo" src="./images/Bunnar-Springs-logo.png" alt="Bunnar Springs Observatory logo">
+    <div class="top-container section container">
+      <div class="header">
+        <h3 class="text header-logo-text">Bunnar Springs Observatory</h3>
         <ul class="header-nav">
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li><a class="text header-nav-links" href=#link>Home</a></li>
+          <li><a class="text header-nav-links" href=#link>About</a></li>
+          <li><a class="text header-nav-links" href=#link>Contact</a></li>
         </ul>
       </div>
-      <div class="hero section">
-        <div class="hero-right">
-          <h1 class="hero-main-text">Welcome to Bunnar Springs Observatory and Dark Sky Lookout.</h1>
-          <p>Bunnar Springs is one of the darkest places in the country, rated 4th lowest on the light pollution index. At night, the stars can be viewed 
-            clearly from the Observatory and Lookout. We are open to the public every Wednesday night thanks to support from Ledge University.<p>
-          <button>Learn more</button>
-        </div>
+      <div class="hero-section">
         <div class="hero-left">
-          <img class="hero-image image" src="./images/observatory.jpg" alt="Bunnar Springs Observatory set against a starry night background">
+          <h1 class="hero-main-text text">See the stars at Bunnar Springs Observatory</h1>
+          <p class="hero-secondary-text text">Bunnar Springs is one of the darkest places in the country, rated 4th lowest on the light pollution 
+          index. At night, the stars can be viewed clearly from the Observatory.</p>
+          <p class="hero-secondary-text text">We are open to the public thanks to support from Clarcona University.</p>
+          <button class="text hero-button"><a href="#link">Learn more</a></button>
         </div>
+        
+        <img class="hero-image image" src="./images/observatory.jpg" alt="Bunnar Springs Observatory set against a starry night background">
       </div>
     </div>
-    
+
     <div class="info container section">
     </div>
-    
+
     <div class="quotes container section">
     </div>
-    
+
     <div class="action container section">
     </div>
-    
+
     <div class="footer container">
     </div>
   </body>
