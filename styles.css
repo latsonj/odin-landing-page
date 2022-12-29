@@ -75,11 +75,25 @@
 
 .hero-button {
   border: 0px;
-  padding: 8px 24px; 
+  padding: 8px 24px;
+  transition: 450ms; 
+}
+
+.hero-button:hover {
+  color: #1f2937;
+  background-color: #f2e9e4;
+  padding: 12px 30px;
 }
 
 .group-button {
   border: 2px solid #e5e7eb;
+  transition: 450ms;
+}
+
+.group-button:hover {
+  color: #1f2937;
+  background-color: #f2e9e4;
+  border: 2px solid #1f2937;
 }
 
 .info-container, .action-container {
@@ -184,10 +198,13 @@
 a {
   text-decoration: none;
   color: #e5e7eb; 
+  transition: 250ms;
 }
 
 a:hover {
-  color: rgba(20, 60, 200, 80%);
+  color: peachpuff;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #1f2937;
 }
 
 a:visited {
@@ -195,7 +212,9 @@ a:visited {
 }
 
 a:visited:hover {
-  color: rgba(20, 60, 200, 80%);
+  color: peachpuff;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #1f2937;
 }
 
 .text {
