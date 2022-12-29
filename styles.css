@@ -87,13 +87,16 @@
 
 .group-button {
   border: 2px solid #e5e7eb;
+  font-size: 14px;
   transition: 450ms;
+  padding: 8px 24px;
 }
 
 .group-button:hover {
   color: #1f2937;
   background-color: #f2e9e4;
-  border: 2px solid #1f2937;
+  border: 2px solid #f2e9e4;
+  padding: 12px 30px;
 }
 
 .info-container, .action-container {
@@ -182,12 +185,6 @@
 
 .action-left, .group-button {
   margin: 15px 50px;
-}
-
-.group-button {
-  height: 50%;
-  width: 190px;
-  font-size: 14px;
 }
 
 .footer-text {
