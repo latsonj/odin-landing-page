@@ -2,6 +2,7 @@
   width: auto;
   height: 275px;
   flex: 0 1 auto;
+  box-shadow: 2px 5px 30px rgb(0, 0, 0, 0.2);
 }
 
 .content-images{
@@ -77,12 +78,14 @@
   border: 0px;
   padding: 8px 24px;
   transition: 450ms; 
+  box-shadow: 1px 3px 30px rgb(0, 0, 0, 0.2);
 }
 
 .hero-button:hover {
   color: #1f2937;
   background-color: #f2e9e4;
   padding: 12px 30px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .group-button {
@@ -90,6 +93,7 @@
   font-size: 14px;
   transition: 450ms;
   padding: 8px 24px;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.15);
 }
 
 .group-button:hover {
@@ -97,6 +101,7 @@
   background-color: #f2e9e4;
   border: 2px solid #f2e9e4;
   padding: 12px 30px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .info-container, .action-container {
