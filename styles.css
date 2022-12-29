@@ -57,7 +57,7 @@
   margin-bottom: 0px;
 }
 
-.hero-main-text, .header-logo-text, .hero-button, .action-prompt, .action-text, .group-button {
+.hero-main-text, .header-logo-text, .hero-button, .action-prompt, .action-text, .group-button, .footer-text {
   color: #f9faf8;
 }
 
@@ -159,7 +159,7 @@
   margin-bottom: 5px;
 }
 
-.action-text {
+.action-text, .footer-text {
   font-size: 14px;
   margin-bottom: 0px;
 }
@@ -172,6 +172,11 @@
   height: 50%;
   width: 190px;
   font-size: 14px;
+}
+
+.footer-text {
+  padding: 30px 0px;
+  text-align: center;
 }
 
 a {
@@ -204,6 +209,6 @@ body {
   margin: 0px;
 }
 
-.hero-main-text, .header-logo-text, .info-header, .action-prompt, .action-text {
+.hero-main-text, .header-logo-text, .info-header, .action-prompt, .action-text, .footer-text {
   margin-top: 0px;
 }
