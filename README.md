@@ -1,13 +1,19 @@
-# odin-landing-page
+# Odin Landing Page
 
-I have used CSS and Flexbox to create a beautiful landing page for
-a made up business.
+This project was created for learning **CSS** from [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page). The webpage displays a made up business and is styled using CSS with The Odin Project's template.
 
-I will be building the CSS on top of the foundations that I've learned
-from HTML.
+The live demo can be found [here](https://latsonj.github.io/odin-landing-page/).
 
-The CSS I use showcases basic use of classes and manipulating of selectors,
-use of color, text, margin, padding, border, width and height properties,
-structuring my webpage using HTML and Flexbox. I use Flexbox extensively
-to layout various sections on my webpage and my familiarity of the Flexbox
-properties allow me to easily set the layout for my webpage. 
+## Learning Objectives
+
+ - Basic use of classes
+ - Manipulating of selectors
+ - Use of color, text, margin, padding, border, width and height properties
+ - Structuring my webpage using HTML
+ - Structuring my webpage using Flexbox (display: flex;) 
+ 
+I use Flexbox extensively to layout various sections on my webpage and have gained familiarity of the Flexbox properties that allow me to easily set the layout for my webpage.
+
+## Author
+
+Created by [latsonj](https://github.com/latsonj)
